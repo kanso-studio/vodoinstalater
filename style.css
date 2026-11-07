@@ -1102,6 +1102,9 @@
      .service-card {
          margin-bottom: 20px;
      }
+     .brands {
+      display: none;
+     }
  }
 
  /* --- MODAL / POPUP STILOVI --- */
