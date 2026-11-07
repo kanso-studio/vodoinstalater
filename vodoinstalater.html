@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProMajstor - Vodoinstalater kome verujete</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome za ikonice -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-wrench"></i> ProMajstor
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Početna</a></li>
+                    <li><a href="#about">O Nama</a></li>
+                    <li><a href="#services">Usluge</a></li>
+                    <li><a href="#team">Tim</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <span><i class="fa-solid fa-phone"></i> 011 123 4567</span>
+                <a href="#" class="btn btn-red trigger-modal" style="padding: 10px 20px;">Zakaži</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h1>Vodoinstalater<br>kome verujete</h1>
+                <p>Imate problem sa vodom? Pozovite nas za hitne intervencije.</p>
+                <div class="hero-phone">
+                    <i class="fa-solid fa-phone-volume"></i> 011 123 4567
+                </div>
+                <a href="#" class="btn btn-red trigger-modal">Zatražite ponudu</a>
+            </div>
+            <div class="hero-image fade-in">
+                <!-- Slika majstora -->
+                <img src="images-removebg-preview.png" alt="Vodoinstalater">
+            </div>
+        </div>
+    </section>
+
+    <!-- USLUGE -->
+    <section class="container fade-in" id="services">
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1620653713380-7a34b773fef8?q=80&w=945&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Stambene usluge">
+                <div class="service-card-content">
+                    <div class="service-icon"><i class="fa-solid fa-house"></i></div>
+                    <h3>Stambene usluge</h3>
+                    <p>Popravka slavina, otpušavanje odvoda, instalacija bojlera i sve ostalo vezano za vaš dom.</p>
+
+                </div>
+            </div>
+            <div class="service-card" style="background: var(--primary-light);">
+                <img src="https://images.unsplash.com/photo-1639600993675-2281b2c939f0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Poslovne usluge">
+                <div class="service-card-content">
+                    <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Poslovne usluge</h3>
+                    <p>Održavanje vodovodnih instalacija u restoranima, kancelarijama i poslovnim zgradama.</p>
+
+                </div>
+            </div>
+            <div class="service-card" style="background: var(--primary-dark);">
+                <img src="https://images.unsplash.com/photo-1584265549845-1284ac2db582?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Servis i popravke">
+                <div class="service-card-content">
+                    <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Servis i popravke</h3>
+                    <p>Brze intervencije i popravke svih vrsta kvarova na vodovodnoj mreži, 24/7.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA BAR -->
+    <section class="cta-bar fade-in">
+        <div class="container">
+            <h3>Zainteresovani ste za procenu cene?</h3>
+            <a href="#" class="btn btn-white trigger-modal">Zatražite ponudu</a>
+        </div>
+    </section>
+
+    <!-- STATISTIKA -->
+    <section class="stats-section fade-in">
+        <div class="container">
+            <h2>Redovno održavanje će vam sačuvati vreme i novac</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>60<span>%</span></h3>
+                    <p>Domaćinstava štedi novac na računima za vodu zahvaljujući redovnom održavanju.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>180<span>L</span></h3>
+                    <p>Prosečna porodica u Srbiji dnevno potroši ovu količinu vode.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>120<span>€</span></h3>
+                    <p>Godišnja ušteda popravkom vodovodne mreže.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PONUDE -->
+    <section class="container offers fade-in">
+        <div class="offers-grid">
+            <div class="offer-card">
+                <span class="offer-badge">Specijalna ponuda</span>
+                <img src="https://images.unsplash.com/photo-1610278764397-388d11c35ddb?q=80&w=1156&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Montaža slavine">
+                <div class="offer-content">
+                    <div>
+                        <h3>Montaža slavine</h3>
+                        <p style="font-size: 12px; color: #666;">20% popusta</p>
+                    </div>
+                    <div class="offer-price"><del>2.500</del> 2.000 RSD</div>
+                </div>
+            </div>
+            <div class="offer-card">
+                <span class="offer-badge">Specijalna ponuda</span>
+                <img src="https://images.unsplash.com/photo-1669211659110-3f3db4119b65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Filteri za vodu">
+                <div class="offer-content">
+                    <div>
+                        <h3>Montaža filtera za vodu</h3>
+                        <p style="font-size: 12px; color: #666;">20% popusta</p>
+                    </div>
+                    <div class="offer-price"><del>5.000</del> 4.000 RSD</div>
+                </div>
+            </div>
+            <div class="offer-card">
+                <span class="offer-badge">Specijalna ponuda</span>
+                <img src="https://images.unsplash.com/photo-1693326416437-083cbfa4ad5b?q=80&w=812&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+                <div class="offer-content">
+                    <div>
+                        <h3>Čišćenje odvoda</h3>
+                        <p style="font-size: 12px; color: #666;">20% popusta</p>
+                    </div>
+                    <div class="offer-price"><del>3.500</del> 2.800 RSD</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HITNE INTERVENCIJE -->
+    <section class="emergency">
+        <div class="container emergency-content fade-in">
+            <div class="emergency-text">
+                <h2>Dostupni smo 24/7</h2>
+            </div>
+            <div class="emergency-features">
+                <div class="em-feature">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <div>
+                        <h4>Brza i pouzdana usluga</h4>
+                        <p>Garantujemo brz izlazak na teren i kvalitetne popravke.</p>
+                    </div>
+                </div>
+                <div class="em-feature">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <div>
+                        <h4>Stručni i obučeni majstori</h4>
+                        <p>Naš tim čine licencirani i iskusni profesionalci.</p>
+                    </div>
+                </div>
+                <div class="em-feature">
+                    <i class="fa-solid fa-house-chimney-crack"></i>
+                    <div>
+                        <h4>Hitne intervencije</h4>
+                        <p>Rešavamo sve vrste kvarova u najkraćem roku.</p>
+                    </div>
+                </div>
+                <div class="em-feature">
+                    <i class="fa-solid fa-file-shield"></i>
+                    <div>
+                        <h4>Garancija na rad</h4>
+                        <p>Garantujemo kvalitet izvršenih usluga i ugrađenog materijala.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAVETI I TRIKOVI -->
+    <section class="tips">
+        <div class="container tips-content fade-in">
+            <div class="faq-section">
+                <h2>Brzi saveti i trikovi</h2>
+                <details class="faq-item">
+                    <summary>Šta uraditi kada se začepi WC šolja?</summary>
+                    <div class="faq-answer">Pokušajte sa klasičnom gumom za odčepljivanje (pumpom). Izbegavajte sipanje agresivnih hemikalija. Ako ne uspete, pozovite majstora da mašinski očisti odvod i izbegne oštećenja instalacija.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Šta učiniti ako voda ne ide?</summary>
+                    <div class="faq-answer">Prvo proverite da li je glavni ventil otvoren. Ako je sve u redu, moguće je da je došlo do vazdušnog čepa ili blokade koju može rešiti samo stručnjak.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Koliko često treba čistiti bojler?</summary>
+                    <div class="faq-answer">Preporučuje se čišćenje i uklanjanje kamenca iz bojlera jednom godišnje kako bi se produžio njegov radni vek i smanjila potrošnja struje.</div>
+                </details>
+                <details class="faq-item">
+                    <summary>Kako sprečiti zamrzavanje cevi zimi?</summary>
+                    <div class="faq-answer">Izolujte cevi u negrejanim prostorijama i pustite da voda lagano kaplje tokom najhladnijih noći. Ako odlazite, isključite vodu i ispraznite sistem.</div>
+                </details>
+            </div>
+            <div class="video-section">
+
+                <img src="https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Video tutorijal">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials fade-in">
+        <div class="container">
+            <h2>Iskustva klijenata</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Imali smo ozbiljno curenje ispod sudopere. Majstor je došao u roku od 30 minuta, brzo pronašao uzrok i sanirao kvar. Ostavio je sve čisto za sobom. Svaka čast na profesionalnosti!"</p>
+                    <div class="client-info">
+                        <h4>Miloš Jovanović</h4>
+                        <span>Beograd, Srbija</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Zamenili su mi staru vodovodnu instalaciju u kupatilu. Veoma sam zadovoljna kvalitetom rada i korektnom cenom. Konačno imam normalan pritisak vode."</p>
+                    <div class="client-info">
+                        <h4>Jelena Petrović</h4>
+                        <span>Novi Sad, Srbija</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BRENDS -->
+    <section class="brands fade-in">
+        <div class="container brands-grid">
+            <!-- Tekstualni placeholderi za brendove -->
+            <h3 style="font-weight: 800; font-size: 24px;">GEBERIT</h3>
+            <h3 style="font-weight: 800; font-size: 24px;">GROHE</h3>
+            <h3 style="font-weight: 800; font-size: 24px;">VAILLANT</h3>
+            <h3 style="font-weight: 800; font-size: 24px;">BOSCH</h3>
+            <h3 style="font-weight: 800; font-size: 24px;">ARISTON</h3>
+        </div>
+    </section>
+
+    <!-- O NAMA -->
+    <section class="trusted">
+        <div class="container trusted-content fade-in">
+            <div class="trusted-text">
+                <h2>Pouzdani <span>Vodoinstalateri</span></h2>
+                <p>Ljubaznost možda nije prva stvar na koju ljudi pomisle kada je reč o vodoinstalacijama, ali kod nas je jedna od najvažnijih stvari na kojoj insistiramo.</p>
+                <p>Rad na vodovodu kod kuće može biti stresan, zbog prljavštine i nereda. Naši majstori su najbolji u tome da posao obave čisto, brzo i profesionalno, ostavljajući vaš dom kao da se ništa nije desilo.</p>
+
+                <div class="trusted-phone">
+                    <i class="fa-solid fa-phone-volume"></i> 011 123 4567
+                </div>
+                <a href="#" class="btn btn-red trigger-modal">Zakažite majstora</a>
+            </div>
+            <div class="trusted-image">
+                <img src="https://images.unsplash.com/photo-1749532125405-70950966b0e5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Pouzdani profesionalci">
+            </div>
+        </div>
+    </section>
+
+    <!-- TIM -->
+    <section class="team" id="team">
+        <div class="container fade-in">
+            <div class="section-title">
+                <h2>Upoznajte naš tim</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1598226863630-2826f1d31532?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Marko Marković">
+                    <h3>Marko Marković</h3>
+                    <p>Glavni majstor</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1728516687003-58347d3412b3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Nikola Nikolić">
+                    <h3>Nikola Nikolić</h3>
+                    <p>Vodoinstalater</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1684135151181-94608093aa3f?q=80&w=704&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Ana Ilić">
+                    <h3>Ana Ilić</h3>
+                    <p>Dispečer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1707897283701-40d6f55b8738?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Petar Petrović">
+                    <h3>Petar Petrović</h3>
+                    <p>Serviser</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BROJEVI -->
+    <section class="numbers fade-in">
+        <div class="container">
+            <h2>Kompanija u brojevima</h2>
+            <div class="numbers-grid">
+                <div class="number-item">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h3>935</h3>
+                    <p>Zadovoljnih klijenata</p>
+                </div>
+                <div class="number-item">
+                    <i class="fa-solid fa-medal"></i>
+                    <h3>25</h3>
+                    <p>Godina iskustva</p>
+                </div>
+                <div class="number-item">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h3>648</h3>
+                    <p>Saniranih curenja</p>
+                </div>
+                <div class="number-item">
+                    <i class="fa-solid fa-faucet-drip"></i>
+                    <h3>750</h3>
+                    <p>Metara postavljenih cevi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFO I MAPA -->
+    <section class="info-map" id="contact">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Naša lokacija</h4>
+                    <p>Bulevar Kralja Aleksandra 73<br>11000 Beograd</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Radno vreme</h4>
+                    <p>Pon - Sub: 08:00 - 20:00<br>Nedeljom: Hitne intervencije</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>Telefon</h4>
+                    <p>+381 11 123 4567<br>+381 64 123 4567</p>
+                </div>
+                <div class="info-card">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>info@promajstor.rs<br>servis@promajstor.rs</p>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <!-- Google mapa za Beograd -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.744297773345!2d20.47409931553553!3d44.80623897909864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a6b1d5e2b0b%3A0x6b4c7c1d5e2b0b0!2sBulevar%20kralja%20Aleksandra%2073%2C%20Beograd!5e0!3m2!1ssr!2srs!4v1620000000000!5m2!1ssr!2srs" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-cta">
+                <h2>Kontaktirajte nas za besplatnu procenu</h2>
+                <a href="#" class="btn btn-red trigger-modal">Zakažite besplatan izlazak</a>
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-col footer-contact">
+                    <h4>Kontaktirajte nas</h4>
+                    <p><i class="fa-solid fa-phone"></i> 011 123 4567</p>
+                    <p><i class="fa-regular fa-envelope"></i> info@promajstor.rs</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Bulevar Kralja Aleksandra 73, Beograd</p>
+                    <div class="social-links" style="justify-content: flex-start; margin-top: 20px;">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Hitne intervencije</h4>
+                    <div class="emergency-box">
+                        <p>Dostupni 24/7 za vas</p>
+                        <h3><i class="fa-solid fa-phone-volume"></i> 011 123 4567</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ProMajstor. Sva prava zadržana.</p>
+                <p>Dizajnirao: kanso studio</p>
+            </div>
+        </div>
+    </footer>
+    <!-- POPUP FORMA (MODAL) -->
+    <div id="quoteModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Zatražite ponudu</h2>
+            <p>Popunite formu ispod i naš tim će vas kontaktirati u najkraćem roku.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Ime i prezime *</label>
+                    <input type="text" id="name" name="name" required placeholder="Vaše ime">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Broj telefona *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="npr. 064 123 4567">
+                </div>
+                <div class="form-group">
+                    <label for="service">Vrsta usluge *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Izaberite uslugu</option>
+                        <option value="stambene">Stambene usluge</option>
+                        <option value="poslovne">Poslovne usluge</option>
+                        <option value="servis">Servis i popravke</option>
+                        <option value="hitno">Hitna intervencija</option>
+                        <option value="drugo">Drugo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Opis problema (opciono)</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Kratko opišite šta vam je potrebno..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-red" style="width: 100%;">Pošalji zahtev</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
